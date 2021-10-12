@@ -1,4 +1,3 @@
-![99D6533B5C5720CF09](https://user-images.githubusercontent.com/81364498/136978216-e76f5518-8621-40c0-bcdc-3615ea8d427d.png)
 ## AWS?
 
 - 아마존닷컴에서 개발한 Cloud computing 플랫폼
@@ -62,7 +61,18 @@
 언어 및 운영 체제에 구애 받지 않는 플랫폼이다. 따라서 사용자의 비즈니스에 가장 적합한 개발 플랫폼 또는 프로그래밍 모델을 선택할 수 있다.
 
 - 민첩성, 즉각적 융퉁성
+
+물리적인 서버를 구축하길 기다리는 대신 즉시 새로운 앱을 배포하고, 수요를 기준으로 축소할 수도 있다. 
+
 - 몇 분 만에 전 세계에 배포 가능 등
+
+## AWS 서비스 스택
+
+![990E904D5C91983F0C](https://user-images.githubusercontent.com/81364498/136978935-43674555-8e47-46d7-b517-1397588bc058.png)
+
+## AWS 기초 서비스
+
+![99FAD8465C9198F610](https://user-images.githubusercontent.com/81364498/136978896-8eb856ce-3748-4947-8ef8-22fe98af5dac.png)
 
 # 단어 정리
 
