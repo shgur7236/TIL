@@ -68,11 +68,11 @@
 
 ## AWS 서비스 스택
 
-![990E904D5C91983F0C](https://user-images.githubusercontent.com/81364498/136978935-43674555-8e47-46d7-b517-1397588bc058.png)
+<img src="../imgs/스택">
 
 ## AWS 기초 서비스
 
-![99FAD8465C9198F610](https://user-images.githubusercontent.com/81364498/136978896-8eb856ce-3748-4947-8ef8-22fe98af5dac.png)
+<img src="../imgs/서비스">
 
 - 컴퓨팅
     - Amazon Elastic Compute Cloud(EC2)는 AWS 컴퓨팅서비스의 핵심이다.
