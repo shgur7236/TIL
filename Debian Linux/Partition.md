@@ -11,7 +11,7 @@
 
 하드디스크의 구조
 
-<img src="../imgs/hard.png">
+<img src="../imgs/hard.jpg">
 
 1. MBR : Master Boot Recoder 
 - 하드에서 가장 먼저 읽히는 부분, 전체적인 관리
