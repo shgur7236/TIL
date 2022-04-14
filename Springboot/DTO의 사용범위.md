@@ -13,7 +13,7 @@ Model과 View를 분리함으로써 서로의 의존성을 낮추고 독립적�
 --------------------------------------------------------
 ### DTO를 사용하지 않는 경우
 | User.java
-```
+```java
 public class User {
     private Long id;
     private String name;
@@ -23,7 +23,7 @@ public class User {
 }
 ```
 | UserController.java
-```
+```java
 @GetMapping("/page/{id}")
 @ResponseStatus(Httpstatus.OK)
 public User viewMyPage(@PathVariable("id") Long id) {
@@ -37,17 +37,17 @@ public User viewMyPage(@PathVariable("id") Long id) {
 2. UI 계층에서 Model의 메소드를 호출하거나 상태를 변경시킬 위험이 존재한다.
 3. Model과 View가 강하게 결합되어, View의 요구사항 변화가 Model에 영향을 끼치지 쉬워진다.
     - User Entity의 속성이 변경되면, View가 전달받을 JSON 등 클라이언트의 코드에도 변경을 유발하기 때문에 상호간 강하게 결합된다.
-----
+
 ### DTO를 사용하는 경우
 | UserResponseDto.java
-```
+```java
 public class UserResponseDto {
     private String name;
     private String email;
 }
 ```
 | UserController.java
-```
+```java
 @GetMapping("/page/{id}")
 @ResponseStatus(Httpstatus.OK)
 public UserResponseDto viewMyPage(@PathVariable("id") Long id) {
