@@ -21,7 +21,7 @@ public class SampleController {
         private SampleService sampleService;
 }
 ```
-###Field Injection을 사용하면 안되는 이유
+### Field Injection을 사용하면 안되는 이유
 - **단일 책임(SRP)의 원칙 위반**
 
 **의존성을 주입하기가 쉽다.**
