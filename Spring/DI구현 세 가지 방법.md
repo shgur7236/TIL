@@ -81,7 +81,7 @@ set을 통해 **Service의 구현체를 주입해주지 않았으므로,NullPoin
 
 이 문제를 해결 할 수 있는 방법이 `Constructor Injection`이다.
 
-### Constructor Inection을 사용해야 하는 이유
+### Constructor Injection을 사용해야 하는 이유
 ---
 **Spring Framework Reference에서 권장하는 방법은 생성자를 통한 주입**이다.
 
