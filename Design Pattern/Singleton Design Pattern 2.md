@@ -93,6 +93,7 @@ public class ThreadSafeSingleton {
     
 }
 ```
+**private static으로 인스턴스 변수를 만들**고 **private 생성자로 외부에서 생성을 막았**으며 synchronized 키워드를 사용해서 thread-safe하게 만들었다.
 - **스레드 안전성을 제공**하지만, 별도의 인스턴스를 생성할 수 있는 **처음 몇 개의 스레드에만 필요**하다. **동기화된 방법과 관련된 비용 때문에 성능이 저하**된다. 매번 이러한 추가 오버헤드를 방지하기 위해 **이중 체크 잠금 원리를 사용**한다.
 ```java
 public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){
@@ -102,7 +103,31 @@ public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){
                 instance = new ThreadSafeSingleton();
             }
         }
+        return instance;
     }
-    return instance;
 }
 ```
+getInstance()에 synchronized를 사용하는 것이 아니라 **첫 번째 if문으로 인스턴스의 존재여부를 체크**하고 **두 번째 if문에서 다시 한번 체크할 때 동기화 시켜서 인스턴스를 생성하므로 thread-safe하면서도 처음 생성 이후에 synchonized 블럭을 타지 않기** 때문에 성능저하를 완화했다.
+그러나 완벽한 방법은 아니다. 
+
+### Initialization on demand holder idiom (holder에 의한 초기화)
+---
+클래스안에 클래스(Holder)를 두어 JVM의 Class loader 매커니즘과 Class가 로드되는 시점을 이용한 방법
+```java
+public class Something {
+    private Something() {
+    }
+    
+    private static class LazyHolder {
+        public static final Something INSTANCE = new Somthing();
+    }
+    
+    public static Something getInstance() {
+        return LazyHolder.INSTANCE;
+    }
+}
+```
+JVM의 클래스 초기화 과정에서 보장되는 원자적 특성을 이용하여 싱글턴의 초기화 문제에 대한 책임을 JVM에 떠넘긴다.
+
+holder안에 선언된 instance가 static이기 때문에 클래스 로딩시점에 한번만 호출될 것이며 final을 사용해 다시 값이 할당되지 않도록 만든 방법.
+**가장 많이 사용하고 일반적인 Singleton 클래스 사용 방법이다.**
