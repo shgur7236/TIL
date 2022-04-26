@@ -31,17 +31,17 @@ public class MyArray {
     public void insertElement(int position, int num){
         int i;
 
-        if(position < 0 || position > count) { //index error
-            System.out.println();
-            return;
-        }
-
         if(count >= ARRAY_SIZE) { //꽉 찬 경우
             System.out.println("not enough memory");
             return;
         }
 
-        for( i = count - 1; i >=position; i++){
+        if(position < 0 || position > count) { //index error
+            System.out.println("insert Error");
+            return;
+        }
+
+        for( i = count - 1; i >=position; i--){
             intArr[i+1] = intArr[i]; //하나씩 이동
         }
 
@@ -64,7 +64,7 @@ public class MyArray {
 
         ret = intArr[position];
 
-        for(int i = position; i < count-1; i++){
+        for(int i = position; i < count; i++){
             intArr[i] = intArr[i+1];
         }
         count--;
