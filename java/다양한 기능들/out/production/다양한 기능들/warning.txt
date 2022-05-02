@@ -1,0 +1,4 @@
+5월 01, 2022 7:30:25 오후 logger.MyLogger log
+WARNING: log test
+5월 01, 2022 7:30:25 오후 logger.MyLogger log
+SEVERE: log test
