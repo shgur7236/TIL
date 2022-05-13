@@ -5,4 +5,5 @@
     <file type="web" url="file://$PROJECT_DIR$/client" />
     <file type="web" url="file://$PROJECT_DIR$/server" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
