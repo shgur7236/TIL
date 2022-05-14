@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment=".">
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/dto/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/controller/ServerApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment="RestTemplate를 통해 Get으로 통신 구현, UriComponentsBuilder를 가지고 주소 만듬">
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/dto/UserRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/ClientApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/RestTemplateSerevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/RestTemplateSerevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/server/controller/ServerApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/controller/ServerApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,11 @@
     "spring.configuration.checksum": "6804a8186f4380c6c27f1655b86d0e58"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.client.dto" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -83,7 +83,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.ServerApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
@@ -130,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652366192036</updated>
       <workItem from="1652366193298" duration="1254000" />
-      <workItem from="1652421699843" duration="2150000" />
+      <workItem from="1652421699843" duration="5272000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1652366439914</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652366439914</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RestTemplate를 통해 Get으로 통신 구현, UriComponentsBuilder를 가지고 주소 만듬">
+      <created>1652424115470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652424115470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="RestTemplate를 통해 Get으로 통신 구현, UriComponentsBuilder를 가지고 주소 만듬" />
+    <option name="LAST_COMMIT_MESSAGE" value="RestTemplate를 통해 Get으로 통신 구현, UriComponentsBuilder를 가지고 주소 만듬" />
   </component>
 </project>
