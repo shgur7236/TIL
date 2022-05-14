@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment="RestTemplate를 통해 Post 방식 구현">
+    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment="Header 값을 추가하여 전송">
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/dto/Req.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/dto/Req.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/RestTemplateSerevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/RestTemplateSerevice.java" afterDir="false" />
@@ -67,6 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/shgur/Desktop/Any/Spring/Server(Client) to server 간의 연결",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "6804a8186f4380c6c27f1655b86d0e58"
   }
 }]]></component>
@@ -115,8 +118,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ClientApplication" />
         <item itemvalue="Spring Boot.ServerApplication" />
+        <item itemvalue="Spring Boot.ClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652366192036</updated>
       <workItem from="1652366193298" duration="1254000" />
-      <workItem from="1652421699843" duration="7021000" />
+      <workItem from="1652421699843" duration="13924000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1652366439914</created>
@@ -152,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652513275700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Header 값을 추가하여 전송">
+      <created>1652514976730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652514976730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +183,7 @@
     <MESSAGE value="." />
     <MESSAGE value="RestTemplate를 통해 Get으로 통신 구현, UriComponentsBuilder를 가지고 주소 만듬" />
     <MESSAGE value="RestTemplate를 통해 Post 방식 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="RestTemplate를 통해 Post 방식 구현" />
+    <MESSAGE value="Header 값을 추가하여 전송" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header 값을 추가하여 전송" />
   </component>
 </project>
