@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment="Header 값을 추가하여 전송">
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/dto/Req.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/dto/Req.java" afterDir="false" />
+    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment="generic타입 사용하여 api 공통부분 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/RestTemplateSerevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/RestTemplateSerevice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/server/controller/ServerApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/controller/ServerApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/shgur/Desktop/Any/Spring/Server(Client) to server 간의 연결",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "6804a8186f4380c6c27f1655b86d0e58"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shgur/Desktop/Any/Spring/Server(Client) to server 간의 연결&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6804a8186f4380c6c27f1655b86d0e58&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.client.dto" />
@@ -132,7 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652366192036</updated>
       <workItem from="1652366193298" duration="1254000" />
-      <workItem from="1652421699843" duration="13924000" />
+      <workItem from="1652421699843" duration="14206000" />
+      <workItem from="1652600663124" duration="2222000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1652366439914</created>
@@ -162,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652514976730</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="generic타입 사용하여 api 공통부분 구현">
+      <created>1652521920105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652521920105</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +188,7 @@
     <MESSAGE value="RestTemplate를 통해 Get으로 통신 구현, UriComponentsBuilder를 가지고 주소 만듬" />
     <MESSAGE value="RestTemplate를 통해 Post 방식 구현" />
     <MESSAGE value="Header 값을 추가하여 전송" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header 값을 추가하여 전송" />
+    <MESSAGE value="generic타입 사용하여 api 공통부분 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic타입 사용하여 api 공통부분 구현" />
   </component>
 </project>
