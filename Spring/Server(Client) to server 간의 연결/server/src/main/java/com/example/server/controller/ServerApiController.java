@@ -2,9 +2,7 @@ package com.example.server.controller;
 
 import com.example.server.dto.Req;
 import com.example.server.dto.User;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,9 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.util.Base64;
 
 @Slf4j
 @RestController
@@ -29,14 +25,13 @@ public class ServerApiController {
     @GetMapping("/naver")
     public String naver(){
 
-        String query = "리뷰";
         URI uri = UriComponentsBuilder
                 .fromUriString("https://openapi.naver.com")
                 .path("/v1/search/local.json")
                 .queryParam("query" , "쇼핑")
                 .queryParam("display", 10)
                 .queryParam("sort", "random")
-                .encode(Charset.forName("UTF-8"))
+                .encode(StandardCharsets.UTF_8)
                 .build()
                 .toUri();
 

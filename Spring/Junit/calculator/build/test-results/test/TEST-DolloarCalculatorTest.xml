@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DolloarCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-16T05:00:14" hostname="NOHHYUK" time="0.631">
+  <properties/>
+  <testcase name="dollarTest()" classname="DolloarCalculatorTest" time="0.631"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment="generic타입 사용하여 api 공통부분 구현">
+    <list default="true" id="185f1358-d8d4-420c-b820-ccdad0c75fc7" name="변경" comment="naver 지역 검색 api 연동">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/server/controller/ServerApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/controller/ServerApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,7 @@
       <updated>1652366192036</updated>
       <workItem from="1652366193298" duration="1254000" />
       <workItem from="1652421699843" duration="14206000" />
-      <workItem from="1652600663124" duration="2222000" />
+      <workItem from="1652600663124" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1652366439914</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652521920105</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="naver 지역 검색 api 연동">
+      <created>1652603696444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652603696444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +195,7 @@
     <MESSAGE value="RestTemplate를 통해 Post 방식 구현" />
     <MESSAGE value="Header 값을 추가하여 전송" />
     <MESSAGE value="generic타입 사용하여 api 공통부분 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic타입 사용하여 api 공통부분 구현" />
+    <MESSAGE value="naver 지역 검색 api 연동" />
+    <option name="LAST_COMMIT_MESSAGE" value="naver 지역 검색 api 연동" />
   </component>
 </project>
