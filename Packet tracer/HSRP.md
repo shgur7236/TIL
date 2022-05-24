@@ -26,4 +26,4 @@ standby 20 preempt
 standby 20 ip 6.6.6.254
 
 ### priority 값이 더 큰값이 active상태 105를 많이 씀 
-###preempt는 자신이 active가 된다는 뜻
+preempt는 자신이 active가 된다는 뜻
