@@ -1,4 +1,4 @@
-## 차곡차곡😎😎
+## 차곡차곡😎😎🙌
  
 * AWS
   - [AWS?](https://github.com/shgur7236/TIL/blob/master/AWS/AWS%EA%B8%B0%EB%B3%B8.md)
