@@ -1,7 +1,7 @@
 ## 차곡차곡😎
  
 * AWS
-  - [AWS?](https://github.com/shgur7236/TIL/blob/master/AWS/AWS%EA%B8%B0%EB%B3%B8.md)
+  - [AWS](https://github.com/shgur7236/TIL/blob/master/AWS/AWS%EA%B8%B0%EB%B3%B8.md)
   - [EC2_인스턴스생성](https://github.com/shgur7236/TIL/blob/master/AWS/EC2_%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%83%9D%EC%84%B1.md)
   - [VPC](https://github.com/shgur7236/TIL/blob/master/AWS/VPC.md)
   
