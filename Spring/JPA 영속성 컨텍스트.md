@@ -74,3 +74,4 @@ member.setName("updateName");
 ## 엔티티의 생명주기
 
 <img width="481" alt="JPA_3_2" src="https://user-images.githubusercontent.com/81364498/180405463-6e4416a3-947e-4b5d-b6c8-2ec7bd31a3f8.png">
+
