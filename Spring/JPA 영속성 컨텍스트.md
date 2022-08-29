@@ -2,7 +2,7 @@
 
 **Entity를 영구 저장하는 환경이라는** 뜻으로, **가상의 데이터베이스** 같은 역할을 한다.
 
-아래의 코드는 Entity룰 영속성 컨텍스트에 저장하는 코드이며, 해당 코드는 DB에 저장이 안된 상태이다.(트랜잭션이 끝나야 DB에 반영을 한다)
+아래의 코드는 Entity를 영속성 컨텍스트에 저장하는 코드이며, 해당 코드는 DB에 저장이 안된 상태이다.(트랜잭션이 끝나야 DB에 반영을 한다)
 
 ```java
 entityManager.persist(member); 
@@ -46,8 +46,6 @@ System.out.print(a==b) // true
 
 
 Entity들을 1차 캐시에 저장할 때, 저장할 뿐만 아니라 쓰기 지연 SQL 저장소라는 곳에 해당 SQL문도 함께 저장한다.
-
-![images_cham_post_e35818bd-50c6-4da9-8e5d-40511de302ef_image](https://user-images.githubusercontent.com/81364498/180405389-4cb019bf-e0a7-40fc-
 
 - 트랜잭션 커밋을 실행할 때, 미리 저장해두었던 SQL문들을 한번에 실행한다.
 
