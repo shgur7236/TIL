@@ -62,7 +62,7 @@
    - [Spring의 주요 어노테이션](https://github.com/shgur7236/TIL/blob/master/Spring/Spring%EC%9D%98%20%EC%A3%BC%EC%9A%94%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98.md)
    - [gradle프로젝트에 out, build 폴더가 왜 존재 하는가](https://github.com/shgur7236/TIL/blob/master/Spring/gradle%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%20out%2C%20build%20%ED%8F%B4%EB%8D%94%EA%B0%80%20%EC%9E%88%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
    - [JPA 영속성 컨텍스트](https://github.com/shgur7236/TIL/blob/master/Spring/JPA%20%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
- 
+   - [JPA 란 무엇인가?](https://github.com/shgur7236/TIL/blob/master/Spring/JPA%20%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F.md)
  * Java
    - [Extends와 Implements의 차이점](https://github.com/shgur7236/TIL/blob/master/java/Extends%EC%99%80Implements%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
    - [OOP](https://github.com/shgur7236/TIL/blob/master/java/OOP(%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D).md)
