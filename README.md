@@ -60,7 +60,7 @@
    - [DI, IoC](https://github.com/shgur7236/TIL/blob/master/Spring/DI%2C%20IoC.md)
    - [DI구현 세 가지 방법](https://github.com/shgur7236/TIL/blob/master/Spring/DI%EA%B5%AC%ED%98%84%20%EC%84%B8%20%EA%B0%80%EC%A7%80%20%EB%B0%A9%EB%B2%95.md)
    - [DTO 사용범위](https://github.com/shgur7236/TIL/blob/master/Spring/DTO%EC%9D%98%20%EC%82%AC%EC%9A%A9%EB%B2%94%EC%9C%84.md)
-   - [Ioc, Di, Spring Container, bean정리](https://github.com/shgur7236/TIL/edit/master/Spring/IoC,%20Di,%20Spring%20Container,%20Bean%EC%A0%95%EB%A6%AC.md)
+   - [Ioc, Di, Spring Container, bean정리](https://github.com/shgur7236/TIL/blob/master/Spring/IoC%2C%20Di%2C%20Spring%20Container%2C%20Bean%EC%A0%95%EB%A6%AC.md)
    - [Spring의 MVC구조와 동작 과정](https://github.com/shgur7236/TIL/blob/master/Spring/MVC%20%EA%B5%AC%EC%A1%B0.md)
    - [Spring의 주요 어노테이션](https://github.com/shgur7236/TIL/blob/master/Spring/Spring%EC%9D%98%20%EC%A3%BC%EC%9A%94%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98.md)
    - [gradle프로젝트에 out, build 폴더가 왜 존재 하는가](https://github.com/shgur7236/TIL/blob/master/Spring/gradle%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%20out%2C%20build%20%ED%8F%B4%EB%8D%94%EA%B0%80%20%EC%9E%88%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
